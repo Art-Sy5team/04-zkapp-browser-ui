@@ -1,129 +1,789 @@
 .container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+	padding: 0 2rem;
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
+  
+  .main {
+	min-height: 100vh;
+	padding: 1rem 0;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  
+	
+  }
+  
   .footer {
-    border-color: #222;
+	display: flex;
+  
+	
   }
+  
+  .footerbg {
+	display: block;
+	background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 520px;
+	height: 400px;
+	position: absolute;
+	left: 90px;
+	top: 510px;
+	}
+  
+  .blank {
+	  display: block;
+	  background-image: url("../images/footer.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 530px;
+	  height: 400px;
+	  position: absolute;
+	  left: 200px;
+	  top: 400px;
+  }
+  
+  .title a {
+	color: #0070f3;
+	text-decoration: none;
+  }
+  
+  .title a:hover,
+  .title a:focus,
+  .title a:active {
+	text-decoration: underline;
+  }
+  
+  .title {
+	margin: 0;
+	line-height: 1.15;
+	font-size: 4rem;
+  }
+  
+  .title,
+  .description {
+	text-align: center;
+  }
+  
+  .description {
+	margin: 4rem 0;
+	line-height: 1.5;
+	font-size: 1.5rem;
+  }
+  
   .code {
-    background: #111;
+	background: #fafafa;
+	border-radius: 5px;
+	padding: 0.75rem;
+	font-size: 1.1rem;
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+	  Bitstream Vera Sans Mono, Courier New, monospace;
   }
-  .logo img {
-    filter: invert(1);
+  
+  .grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 800px;
   }
-}
+  
+  .card {
+	margin: 1rem;
+	padding: 1.5rem;
+	text-align: left;
+	color: inherit;
+	text-decoration: none;
+	border: 1px solid #eaeaea;
+	border-radius: 10px;
+	transition: color 0.15s ease, border-color 0.15s ease;
+	max-width: 300px;
+  }
+  
+  .card:hover,
+  .card:focus,
+  .card:active {
+	color: #0070f3;
+	border-color: #0070f3;
+  }
+  
+  .card h2 {
+	margin: 0 0 1rem 0;
+	font-size: 1.5rem;
+  }
+  
+  .card p {
+	margin: 0;
+	font-size: 1.25rem;
+	line-height: 1.5;
+  }
+  
+  .logo {
+	  display: flex;
+	  background-image: url("../images/icon.png");
+	  height: 50px;
+	  width: 50px;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  align-items: center;
+	  justify-content: center;
+	  margin-left: 85px;
+  
+  }
+  
+  .homepage {
+	  display: block;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  position: relative;	
+	  width: 900px;
+	  height: 600px;
+	  transform: scale(1);
+  }
+  
+  .homepageImg {
+	  display: block;
+	  display: flex;
+	  background-size: cover;
+	  align-items: center;
+	  justify-content: center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  background-image: url("../images/homepageImg.png");
+	  background-repeat: 700px 600px;
+	  position: absolute;
+	  width: 1500px;
+	  height: 760px;
+  }
+  
+  .banner {
+	  display: block;
+	  background-image: url("../images/banner.png");
+	  background-repeat: no-repeat;
+	  background-size: 50%, 25%, 25%;
+	  width: 1400px;
+	  height: 400px;
+	  position: absolute;
+	  left: 140px;
+	  top: 5px;
+  }
+  
+  .banner2 {
+	  display: block;
+	  background-image: url("../images/banner2.png");
+	  background-repeat: no-repeat;
+	  background-size: 70%;
+	  width: 900px;
+	  height: 300px;
+	  position: absolute;
+	  left: 205px;
+	  top: 165px;
+  }
+  
+  .connectBtn {
+	  display: block;
+	  background-image: url("../images/connectBtn1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 380px;
+	  top: 450px;
+  }
+  
+  .connectBtn:hover {
+	  display: block;
+	  background-image: url("../images/connectBtn2.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 380px;
+	  top: 450px;
+  }
+  
+  .connectBtn:active {
+	  display: block;
+	  background-image: url("../images/connectBtn3.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 380px;
+	  top: 450px;
+  }
+  
+  .loadingBtn {
+	  display: block;
+	  background-image: url("../images/loadingBtn.gif");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 380px;
+	  top: 450px;
+  }
+  
+  .loading {
+	  display: block;
+	  background-image: url("../images/loading.gif");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 300px;
+	  height: 300px;
+	  position: absolute;
+	  left: 305px;
+	  top: 50px;
+  }
+  
+  .getLoading {
+	  display: block;
+	  background-image: url("../images/getLoading.gif");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 280px;
+	  height: 280px;
+	  position: absolute;
+	  left: 315px;
+	  top: 150px;
+  }
+  
+  .sendLoading {
+	  display: block;
+	  background-image: url("../images/getLoading.gif");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 250px;
+	  height: 250px;
+	  position: absolute;
+	  left: 330px;
+	  top: 110px;
+  }
+  
+  .sendCheck {
+	  display: block;
+	  background-image: url("../images/check.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 43px;
+	  height: 35px;
+	  position: absolute;
+	  left: 295px;
+	  top: 325px;
+  }
+  
+  .sendDone {
+	  display: block;
+	  background-image: url("../images/senddone.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 250px;
+	  height: 120px;
+	  position: absolute;
+	  left: 330px;
+	  top: 170px;
+  }
+  
+  .caution {
+	  display: block;
+	  background-image: url("../images/caution.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 180px;
+	  height: 155px;
+	  position: absolute;
+	  left: 370px;
+	  top: 120px;
+  }
+  
+  .succes {
+	  display: block;
+	  background-image: url("../images/succes.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 180px;
+	  height: 180px;
+	  position: absolute;
+	  left: 370px;
+	  top: 120px;
+  }
+  
+  .statusTxt {
+	  display: block;
+	  position: absolute;
+	  left: 300px;
+	  top: 300px;
+	  color: white;
+	  font-size: 15px;
+	  text-align: center;
+	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+  }
+  
+  .statusSendTxt {
+	  display: block;
+	  position: absolute;
+	  left: 340px;
+	  top: 320px;
+	  color: white;
+	  font-size: 18px;
+	  text-align: center;
+	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+  }
+  
+  .walletLink {
+	  display: block;
+	  position: absolute;
+	  left: 390px;
+	  top: 370px;
+	  color: white;
+	  font-size: 20px;
+	  text-align: center;
+	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .walletTxt {
+	  display: block;
+	  position: absolute;
+	  left: 210px;
+	  top: 350px;
+	  color: white;
+	  font-size: 15px;
+	  text-align: center;
+	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .faucetTxt {
+	  display: block;
+	  position: absolute;
+	  left: 215px;
+	  top: 350px;
+	  color: white;
+	  font-size: 15px;
+	  text-align: center;
+	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .faucetHere {
+	  display: block;
+	  position: absolute;
+	  left: 390px;
+	  top: 370px;
+	  color: white;
+	  font-size: 20px;
+	  text-align: center;
+	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .backNoAccount {
+	  display: block;
+	  background-image: url("../images/backBtn1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 50px;
+	  height: 52px;
+	  position: absolute;
+	  left: 215px;
+	  top: 110px;
+  }
+  
+  .backNoAccount:hover {
+	  display: block;
+	  background-image: url("../images/backBtn2.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 50px;
+	  height: 52px;
+	  position: absolute;
+	  left: 215px;
+	  top: 110px;
+  }
+  
+  .backNoWallet {
+	  display: block;
+	  background-image: url("../images/backBtn1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 50px;
+	  height: 52px;
+	  position: absolute;
+	  left: 215px;
+	  top: 110px;
+  }
+  
+  .backNoWallet:hover {
+	  display: block;
+	  background-image: url("../images/backBtn2.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 50px;
+	  height: 52px;
+	  position: absolute;
+	  left: 215px;
+	  top: 110px;
+  }
+  
+  .sendBtn {
+	  display: block;
+	  background-image: url("../images/sendBtn1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 250px;
+	  top: 400px;
+  }
+  
+  .sendBtn:hover {
+	  display: block;
+	  background-image: url("../images/sendBtn2.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 250px;
+	  top: 400px;
+  }
+  
+  .sendBtn:active {
+	  display: block;
+	  background-image: url("../images/sendBtn3.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 250px;
+	  top: 400px;
+  }
+  
+  .sendBtnDisable {
+	  display: block;
+	  background-image: url("../images/sendBtn3.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 250px;
+	  top: 400px;
+  }
+  
+  .getBtn {
+	  display: block;
+	  background-image: url("../images/getBtn1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 510px;
+	  top: 400px;
+  }
+  
+  .getBtn:hover {
+	  display: block;
+	  background-image: url("../images/getBtn2.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 510px;
+	  top: 400px;
+  }
+  
+  .getBtn:active {
+	  display: block;
+	  background-image: url("../images/getBtn3.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 510px;
+	  top: 400px;
+  }
+  
+  .getBtnDisable {
+	  display: block;
+	  background-image: url("../images/getBtn3.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 160px;
+	  height: 73px;
+	  position: absolute;
+	  left: 510px;
+	  top: 400px;
+  }
+  
+  .txtState {
+	  display: block;
+	  position: absolute;
+	  left: 330px;
+	  top: 210px;
+	  color: white;
+	  font-size: 20px;
+	  text-align: center;
+	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+  }
+  
+  .numState {
+	  display: block;
+	  position: absolute;
+	  left: 360px;
+	  top: 200px;
+	  color: white;
+	  font-size: 80px;
+	  text-align: center;
+	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+  }
+  
+  .txtAddrs {
+	  display: block;
+	  position: absolute;
+	  left: 285px;
+	  top: 350px;
+	  color: white;
+	  font-size: 12px;
+	  text-align: center;
+	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+  }
+  
+  .addrs {
+	  display: block;
+	  position: absolute;
+	  left: 220px;
+	  top: 350px;
+	  color: white;
+	  font-size: 13px;
+	  text-align: center;
+	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+  }
+  
+  .getscreen{
+	  display: block;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  position: relative;	
+	  width: 900px;
+	  height: 600px;
+  }
+  
+  .getscreenBlack {
+	  display: block;
+	  display: flex;
+	  background-image: url("../images/black.png");
+	  background-size: repeat;
+	  width: 100%;
+	  height: 100%;
+	  left: 0px;
+	  top: 0px;
+	  position: absolute;
+	  align-items: center;
+	  justify-content: center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  opacity: 0.5;
+	  -webkit-transform: scale(1.5);
+	  transform: scale(1.5); /* you can change the value also */
+	 -webkit-transform-origin: center;
+	  transform-origin: center;
+  }
+  
+  .getscreenImg {
+	  display: block;
+	  display: flex;
+	  background-image: url("../images/screen.png");
+	  background-repeat: no-repeat;
+	  background-size: 1380px 2060px;
+	  width: 1380px;
+	  height: 1280px;
+	  position: absolute;
+	  left: 2060px;
+	  top: 1500px;
+  }
+  
+  .sendscreen{
+	  display: block;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  position: relative;	
+	  width: 900px;
+	  height: 600px;
+  }
+  
+  .sendscreenBlack {
+	  display: block;
+	  display: flex;
+	  background-image: url("../images/black.png");
+	  background-size: repeat;
+	  width: 100%;
+	  height: 100%;
+	  left: 0px;
+	  top: 0px;
+	  position: absolute;
+	  align-items: center;
+	  justify-content: center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  opacity: 0.5;
+	  -webkit-transform: scale(1.5);
+	  transform: scale(1.5); /* you can change the value also */
+	 -webkit-transform-origin: center;
+	  transform-origin: center;
+  }
+  
+  .sendscreenImg {
+	  display: block;
+	  display: flex;
+	  background-image: url("../images/send.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 400px;
+	  height: 330px;
+	  position: absolute;
+	  left: 250px;
+	  top: 100px;
+  }
+  
+  
+  .closeGet {
+	  display: block;
+	  background-image: url("../images/closeBtn1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 50px;
+	  height: 52px;
+	  position: absolute;
+	  left: 590px;
+	  top: 150px;
+  }
+  
+  .closeGet:hover {
+	  display: block;
+	  background-image: url("../images/closeBtn2.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 50px;
+	  height: 52px;
+	  position: absolute;
+	  left: 590px;
+	  top: 150px;
+  }
+  
+  .closeSend {
+	  display: block;
+	  background-image: url("../images/closeBtn1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 50px;
+	  height: 52px;
+	  position: absolute;
+	  left: 600px;
+	  top: 120px;
+  }
+  
+  .closeSend:hover {
+	  display: block;
+	  background-image: url("../images/closeBtn2.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 50px;
+	  height: 52px;
+	  position: absolute;
+	  left: 600px;
+	  top: 120px;
+  }
+  
+  .teleIcon {
+	  display: block;
+	  background-image: url("../images/teleicon1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 100px;
+	  height: 70px;
+	  position: absolute;
+	  left: 280px;
+	  top: 680px;
+  }
+  
+  .dcIcon {
+	  display: block;
+	  background-image: url("../images/dcicon1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 100px;
+	  height: 70px;
+	  position: absolute;
+	  left: 380px;
+	  top: 680px;
+  }
+  
+  .fbIcon {
+	  display: block;
+	  background-image: url("../images/fbicon1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 100px;
+	  height: 70px;
+	  position: absolute;
+	  left: 480px;
+	  top: 680px;
+  }
+  
+  .gitIcon {
+	  display: block;
+	  background-image: url("../images/giticon1.png");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 90px;
+	  height: 70px;
+	  position: absolute;
+	  left: 580px;
+	  top: 60px;
+  }
+  
+  
+  @media (max-width: 600px) {
+	.grid {
+	  width: 100%;
+	  flex-direction: column;
+	}
+  }
+  
+  @media (prefers-color-scheme: dark) {
+	.card,
+	.footer {
+	  border-color: #222;
+	}
+	.code {
+	  background: #111;
+	}
+	.logo img {
+	}
+	 
+	
+  }
+
