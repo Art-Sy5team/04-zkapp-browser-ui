@@ -1,3 +1,4 @@
+
 .container {
 	padding: 0 2rem;
   }
@@ -16,32 +17,25 @@
   
   .footer {
 	display: flex;
-  
+	flex: 1;
+	padding: 1rem 0;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
 	
   }
   
   .footerbg {
-	display: block;
-	background-image: url("../images/footer.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 520px;
-	height: 400px;
-	position: absolute;
-	left: 90px;
-	top: 510px;
-	}
-  
-  .blank {
 	  display: block;
 	  background-image: url("../images/footer.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 530px;
-	  height: 400px;
+	  width: 520px;
+	  height: 145px;
 	  position: absolute;
 	  left: 200px;
-	  top: 400px;
+	  top: 560px;
   }
   
   .title a {
@@ -154,58 +148,58 @@
 	  margin-left: auto;
 	  margin-right: auto;
 	  background-image: url("../images/homepageImg.png");
-	  background-repeat: 700px 600px;
+	  background-repeat: inherit;
 	  position: absolute;
-	  width: 1500px;
-	  height: 760px;
+	  width: 1300px;
+	  height: 1100px;
   }
   
   .banner {
 	  display: block;
 	  background-image: url("../images/banner.png");
 	  background-repeat: no-repeat;
-	  background-size: 50%, 25%, 25%;
-	  width: 1400px;
-	  height: 400px;
+	  background-size: cover;
+	  width: 700px;
+	  height: 200px;
 	  position: absolute;
-	  left: 140px;
-	  top: 5px;
+	  left: 100px;
+	  top: 80px;
   }
   
   .banner2 {
 	  display: block;
-	  background-image: url("../images/banner2.png");
+	  background-image: url("../images/banner2.gif");
 	  background-repeat: no-repeat;
-	  background-size: 70%;
-	  width: 900px;
-	  height: 300px;
+	  background-size: cover;
+	  width: 500px;
+	  height: 140px;
 	  position: absolute;
-	  left: 205px;
-	  top: 165px;
+	  left: 200px;
+	  top: 270px;
   }
   
   .connectBtn {
 	  display: block;
 	  background-image: url("../images/connectBtn1.png");
 	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  background-size: 100%;
+	  width: 200px;
+	  height: 150px;
 	  position: absolute;
-	  left: 380px;
-	  top: 450px;
+	  left: 330px;
+	  top: 430px;
   }
   
   .connectBtn:hover {
 	  display: block;
 	  background-image: url("../images/connectBtn2.png");
 	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  background-size: 100%;
+	  width: 200px;
+	  height: 150px;
 	  position: absolute;
-	  left: 380px;
-	  top: 450px;
+	  left: 330px;
+	  top: 430px;
   }
   
   .connectBtn:active {
@@ -614,12 +608,12 @@
 	  display: flex;
 	  background-image: url("../images/screen.png");
 	  background-repeat: no-repeat;
-	  background-size: 1380px 2060px;
-	  width: 1380px;
-	  height: 1280px;
+	  background-size: cover;
+	  width: 380px;
+	  height: 280px;
 	  position: absolute;
-	  left: 2060px;
-	  top: 1500px;
+	  left: 260px;
+	  top: 150px;
   }
   
   .sendscreen{
@@ -698,8 +692,8 @@
 	  background-image: url("../images/closeBtn1.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 50px;
-	  height: 52px;
+	  width: 160px;
+	  height: 73px;
 	  position: absolute;
 	  left: 600px;
 	  top: 120px;
@@ -725,8 +719,8 @@
 	  width: 100px;
 	  height: 70px;
 	  position: absolute;
-	  left: 280px;
-	  top: 680px;
+	  left: 250px;
+	  top: 600px;
   }
   
   .dcIcon {
@@ -737,8 +731,8 @@
 	  width: 100px;
 	  height: 70px;
 	  position: absolute;
-	  left: 380px;
-	  top: 680px;
+	  left: 350px;
+	  top: 600px;
   }
   
   .fbIcon {
@@ -749,8 +743,8 @@
 	  width: 100px;
 	  height: 70px;
 	  position: absolute;
-	  left: 480px;
-	  top: 680px;
+	  left: 450px;
+	  top: 600px;
   }
   
   .gitIcon {
@@ -761,8 +755,8 @@
 	  width: 90px;
 	  height: 70px;
 	  position: absolute;
-	  left: 580px;
-	  top: 60px;
+	  left: 550px;
+	  top: 600px;
   }
   
   
@@ -786,4 +780,4 @@
 	 
 	
   }
-
+  
