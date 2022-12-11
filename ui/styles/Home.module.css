@@ -35,7 +35,7 @@
 	  height: 145px;
 	  position: absolute;
 	  left: 200px;
-	  top: 560px;
+	  top: 760px;
   }
   
   .title a {
@@ -115,7 +115,7 @@
   
   .logo {
 	  display: flex;
-	  background-image: url("../images/icon.png");
+	  background-image: url("../images/icon-ART-Sy5team.png");
 	  height: 50px;
 	  width: 50px;
 	  background-size: cover;
@@ -170,48 +170,48 @@
 	  display: block;
 	  background-image: url("../images/banner2.gif");
 	  background-repeat: no-repeat;
-	  background-size: cover;
+	  background-size: 100%;
 	  width: 500px;
-	  height: 140px;
+	  height: 130px;
 	  position: absolute;
-	  left: 200px;
+	  left: 214px;
 	  top: 270px;
   }
   
   .connectBtn {
 	  display: block;
-	  background-image: url("../images/connectBtn1.png");
+	  background-image: url("../images/connectC1.png");
 	  background-repeat: no-repeat;
 	  background-size: 100%;
 	  width: 200px;
 	  height: 150px;
 	  position: absolute;
-	  left: 330px;
+	  left: 335px;
 	  top: 430px;
   }
   
   .connectBtn:hover {
 	  display: block;
-	  background-image: url("../images/connectBtn2.png");
+	  background-image: url("../images/connectC2.png");
 	  background-repeat: no-repeat;
 	  background-size: 100%;
 	  width: 200px;
 	  height: 150px;
 	  position: absolute;
-	  left: 330px;
+	  left: 335px;
 	  top: 430px;
   }
   
   .connectBtn:active {
 	  display: block;
-	  background-image: url("../images/connectBtn3.png");
+	  background-image: url("../images/connectC3.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 200px;
+	  height: 150px;
 	  position: absolute;
-	  left: 380px;
-	  top: 450px;
+	  left: 335px;
+	  top: 430px;
   }
   
   .loadingBtn {
@@ -234,7 +234,7 @@
 	  width: 300px;
 	  height: 300px;
 	  position: absolute;
-	  left: 305px;
+	  left: 310px;
 	  top: 50px;
   }
   
@@ -242,72 +242,72 @@
 	  display: block;
 	  background-image: url("../images/getLoading.gif");
 	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 280px;
-	  height: 280px;
+	  background-size: 80%;
+	  width: 1300px;
+	  height: 700px;
 	  position: absolute;
-	  left: 315px;
-	  top: 150px;
+	  left: 10px;
+	  top: 60px;
   }
   
   .sendLoading {
 	  display: block;
 	  background-image: url("../images/getLoading.gif");
 	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 250px;
-	  height: 250px;
+	  background-size: 80%;
+	  width: 1300px;
+	  height: 700px;
 	  position: absolute;
-	  left: 330px;
-	  top: 110px;
+	  left: 10px;
+	  top: 60px;
   }
   
   .sendCheck {
 	  display: block;
-	  background-image: url("../images/check.png");
+	  background-image: url("../images/info.png");
 	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 43px;
-	  height: 35px;
+	  background-size: 100%;
+	  width: 100px;
+	  height: 100px;
 	  position: absolute;
-	  left: 295px;
-	  top: 325px;
+	  left: 250px;
+	  top: -100px;
   }
   
   .sendDone {
 	  display: block;
-	  background-image: url("../images/senddone.png");
+	  background-image: url("../images/sendSS.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  width: 250px;
 	  height: 120px;
 	  position: absolute;
 	  left: 330px;
-	  top: 170px;
+	  top: -100px;
   }
   
   .caution {
 	  display: block;
-	  background-image: url("../images/caution.png");
+	  background-image: url("../images/cautionCC.gif");
 	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 180px;
-	  height: 155px;
+	  background-size: 100%;
+	  width: 380px;
+	  height: 180px;
 	  position: absolute;
-	  left: 370px;
-	  top: 120px;
+	  left: 250px;
+	  top: -100px;
   }
   
   .succes {
 	  display: block;
-	  background-image: url("../images/succes.png");
+	  background-image: url("../images/spirallSS.gif");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 180px;
-	  height: 180px;
+	  width: 230px;
+	  height: 200px;
 	  position: absolute;
-	  left: 370px;
-	  top: 120px;
+	  left: 330px;
+	  top: 100px;
   }
   
   .statusTxt {
@@ -428,49 +428,49 @@
   
   .sendBtn {
 	  display: block;
-	  background-image: url("../images/sendBtn1.png");
+	  background-image: url("../images/sendC1.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 260px;
+	  height: 110px;
 	  position: absolute;
-	  left: 250px;
+	  left: 160px;
 	  top: 400px;
   }
   
   .sendBtn:hover {
 	  display: block;
-	  background-image: url("../images/sendBtn2.png");
+	  background-image: url("../images/sendC2.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 260px;
+	  height: 110px;
 	  position: absolute;
-	  left: 250px;
+	  left: 160px;
 	  top: 400px;
   }
   
   .sendBtn:active {
 	  display: block;
-	  background-image: url("../images/sendBtn3.png");
+	  background-image: url("../images/sendC3.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 260px;
+	  height: 110px;
 	  position: absolute;
-	  left: 250px;
+	  left: 160px;
 	  top: 400px;
   }
   
   .sendBtnDisable {
 	  display: block;
-	  background-image: url("../images/sendBtn3.png");
+	  background-image: url("../images/sendC3.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 260px;
+	  height: 110px;
 	  position: absolute;
-	  left: 250px;
+	  left: 160px;
 	  top: 400px;
   }
   
@@ -479,10 +479,10 @@
 	  background-image: url("../images/getBtn1.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 260px;
+	  height: 110px;
 	  position: absolute;
-	  left: 510px;
+	  left: 500px;
 	  top: 400px;
   }
   
@@ -491,10 +491,10 @@
 	  background-image: url("../images/getBtn2.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 260px;
+	  height: 110px;
 	  position: absolute;
-	  left: 510px;
+	  left: 500px;
 	  top: 400px;
   }
   
@@ -503,10 +503,10 @@
 	  background-image: url("../images/getBtn3.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 260px;
+	  height: 110px;
 	  position: absolute;
-	  left: 510px;
+	  left: 500px;
 	  top: 400px;
   }
   
@@ -515,10 +515,10 @@
 	  background-image: url("../images/getBtn3.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  width: 260px;
+	  height: 110px;
 	  position: absolute;
-	  left: 510px;
+	  left: 500px;
 	  top: 400px;
   }
   
@@ -606,14 +606,14 @@
   .getscreenImg {
 	  display: block;
 	  display: flex;
-	  background-image: url("../images/screen.png");
+	  background-image: url("../images/screenS1.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 380px;
-	  height: 280px;
+	  width: 580px;
+	  height: 480px;
 	  position: absolute;
-	  left: 260px;
-	  top: 150px;
+	  left: 160px;
+	  top: 50px;
   }
   
   .sendscreen{
@@ -655,11 +655,11 @@
 	  background-image: url("../images/send.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 400px;
-	  height: 330px;
+	  width: 450px;
+	  height: 370px;
 	  position: absolute;
-	  left: 250px;
-	  top: 100px;
+	  left: 230px;
+	  top: 90px;
   }
   
   
@@ -667,48 +667,48 @@
 	  display: block;
 	  background-image: url("../images/closeBtn1.png");
 	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 50px;
-	  height: 52px;
+	  background-size: 100%;
+	  width: 75px;
+	  height: 77px;
 	  position: absolute;
-	  left: 590px;
-	  top: 150px;
+	  left: 410px;
+	  top: 460px;
   }
   
   .closeGet:hover {
 	  display: block;
 	  background-image: url("../images/closeBtn2.png");
 	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 50px;
-	  height: 52px;
+	  background-size: 100%;
+	  width: 68px;
+	  height: 77px;
 	  position: absolute;
-	  left: 590px;
-	  top: 150px;
+	  left: 408px;
+	  top: 460px;
   }
   
   .closeSend {
 	  display: block;
 	  background-image: url("../images/closeBtn1.png");
 	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 160px;
-	  height: 73px;
+	  background-size: 100%;
+	  width: 73px;
+	  height: 75px;
 	  position: absolute;
-	  left: 600px;
-	  top: 120px;
+	  left: 420px;
+	  top: 450px;
   }
   
   .closeSend:hover {
 	  display: block;
 	  background-image: url("../images/closeBtn2.png");
 	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 50px;
-	  height: 52px;
+	  background-size: 100%;
+	  width: 60px;
+	  height: 75px;
 	  position: absolute;
-	  left: 600px;
-	  top: 120px;
+	  left: 428px;
+	  top: 450px;
   }
   
   .teleIcon {
@@ -720,7 +720,7 @@
 	  height: 70px;
 	  position: absolute;
 	  left: 250px;
-	  top: 600px;
+	  top: 800px;
   }
   
   .dcIcon {
@@ -732,7 +732,7 @@
 	  height: 70px;
 	  position: absolute;
 	  left: 350px;
-	  top: 600px;
+	  top: 800px;
   }
   
   .fbIcon {
@@ -744,7 +744,7 @@
 	  height: 70px;
 	  position: absolute;
 	  left: 450px;
-	  top: 600px;
+	  top: 800px;
   }
   
   .gitIcon {
@@ -756,7 +756,7 @@
 	  height: 70px;
 	  position: absolute;
 	  left: 550px;
-	  top: 600px;
+	  top: 800px;
   }
   
   
