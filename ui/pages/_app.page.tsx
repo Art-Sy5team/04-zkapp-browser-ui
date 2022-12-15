@@ -567,6 +567,7 @@ export default function App() {
 				
 			<div id="footer" style={{display: 'block'}} >	
 				<span id="footerbg" style={{display: 'block'}} className={styles.footerbg}> </span>
+				<span id="gome.png" style={{display: 'block'}} className={styles.gome}> </span>
 				<a style={{display: 'block'}} href="https://t.me/BantuanTeam5" target="_blank" rel="noopener noreferrer" >
 						<span className={styles.teleIcon}> </span>
 					</a>
@@ -583,6 +584,29 @@ export default function App() {
 						<span className={styles.fbIcon}> </span>
 					</a>
 
+				<a style={{display: 'block'}} href="http://localhost:3000/" target="_blank" rel="noopener noreferrer" >
+						<span className={styles.gomepg}> </span>
+					</a>
+
+				<a style={{display: 'block'}} href="https://www.aurowallet.com/" target="_blank" rel="noopener noreferrer" >
+						<span className={styles.walletpg}> </span>
+					</a>
+
+				<a style={{display: 'block'}} href="https://art-sy5team.gitbook.io/stake-mina/" target="_blank" rel="noopener noreferrer" >
+						<span className={styles.stakingpg}> </span>
+					</a>
+				
+				<a style={{display: 'block'}} href="https://docs.minaprotocol.com/" target="_blank" rel="noopener noreferrer" >
+						<span className={styles.buildpg}> </span>
+					</a>
+				
+				<a style={{display: 'block'}} href="http://localhost:3001/" target="_blank" rel="noopener noreferrer" >
+						<span className={styles.Oraclepg}> </span>
+					</a>
+
+				<a style={{display: 'block'}} href="https://minaprotocol.com/about/" target="_blank" rel="noopener noreferrer" >
+						<span className={styles.aboutpg}> </span>
+					</a>
 			</div>
 					
 			</div>
@@ -590,8 +614,6 @@ export default function App() {
 		
 	<footer className={styles.footer}>
 		</footer>
-
-
 	</div>
   );
 }
